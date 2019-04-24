@@ -1,0 +1,134 @@
+body
+{
+	background-color: rgb(240,240,240);
+	/*background-image: url("pictures/background.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+hr
+{
+	margin: 20px 10px;
+}
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.main
+{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: rgba(250,250,250,0);
+	padding-bottom: 50px;
+}
+/*================================================================================*/
+.navbar
+{
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 45px;
+	margin-bottom: 30px;
+}
+.navbar ul li
+{
+	width: 399px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	background-color: rgb(150,150,150);
+	font-family: Arial;
+	font-size: 120%;
+}
+.navbar ul li a
+{
+	display: block;
+	color: black;
+}
+.navbar ul li a:hover/* if( strcmp(curseur,"mandalo eo amboniny")==0 ) */
+{
+	background-color: rgb(80,80,80);
+	color: white;
+}
+/*================================================================================*/
+.logo
+{
+	text-align: center;
+}
+.logo_pic
+{
+	border-radius: 10px;
+	border: 3px solid black;
+}
+.logo_pic:hover
+{
+	opacity: .9;
+}
+.citation
+{
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 60px;
+}
+.content
+{
+	text-indent: 40px;
+	margin: 0 auto;
+	width: 1000px;
+	margin-top: 20px;
+}
+/*================================================================================*/
+.gal_main
+{
+	width: 1000px;
+	margin: 0 auto;
+	height: 600px;
+}
+.gal_photo
+{
+	float: left;
+}
+.gal_pic
+{
+	border-radius: 5px;
+}
+.gal_pic:hover
+{
+	opacity: .9;
+}
+/*================================================================================*/
+.mem_main
+{
+	width: 800px;
+	margin: 0 auto;
+}
+.perso
+{
+	width: 350px;
+	height: 100px;
+	float: left;
+	box-shadow: 0px 0px 10px 5px grey;
+	margin: 10px;
+	border-radius: 10px;
+}
+.mem_pic
+{
+	float: left;
+	border-radius: 10px 0px 0px 10px;
+}
+.mem_data
+{
+	margin-left: 110px;
+	border-left: 1px black solid;
+	margin-top: 13px;
+	text-align: center;
+}
